@@ -1,0 +1,63 @@
+/* STYLE SHEET FOR interest.HTML */
+
+h1 
+{
+margin-top: 9px; 
+font-weight: bold; 
+font-size: 500%;
+margin-bottom: 10px; 
+font-family: Arial, Helvetica, Geneva, Swiss, sans-serif;
+color :#97AF65;
+}
+
+h2 
+{
+margin-top: 9px; 
+font-weight: bold; 
+font-size: 250%;
+margin-bottom: 10px; 
+font-family: Arial, Helvetica, Geneva, Swiss, sans-serif;
+color : black;
+}
+audio.left
+{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+body 
+{
+margin:10px;
+background-color: #001E00;
+}
+
+article 	
+{	
+
+ opacity: .75;
+ filter: alpha(opacity=50); /* For IE8 and earlier */		
+padding:0;
+margin-left:250px;
+width:1700px;
+background-color:#D6EBF2;
+display:block;
+height:1400px;
+}
+
+a.button {
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 1px 6px;
+    font: 20px Arial;
+    text-rendering: auto;
+    text-align: center;
+    text-transform: none;
+    text-decoration: none;
+    color: buttontext;
+    border: 4px outset buttonface;
+    border-image: initial;
+    background-color: #C0C0C0;
+    cursor: default;
+}
